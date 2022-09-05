@@ -1,0 +1,8 @@
+Project II – Build another Game Program
+This Game is called Price-is-Right Wheel Spin.
+I.	Write a program to implement the Wheel Spin on “The Price is Right”.
+II.	The Wheel Spin Game has 3 players.  The Wheel has the numbers 5, 10, 15, 20 …100.  20 Numbers.  Use Random Numbers to generate these numbers.  The rules are that each Player gets at most 2 spins but they cannot go over 100.  If the Player goes over 100 they are out. The player can decide if he/she wants a second spin or not, after they see the result of the first spin.  At the end the player with the highest value, without going over 100, wins.
+III.	If a player hits exactly 100, they can win more money.  The player that hits 100 exactly gets one additional spin after all 3 Players have finished spinning.  If they hit 100 again, they get $25,000.  If they hit 5 or 15, they get $15,000.
+IV.	Build a GUI with a Button that says: “Start Game”.  All Game data should be displayed in this GUI.
+V.	Build the code to play this game.  Use Functions where appropriate.  Have Fun……..
+
