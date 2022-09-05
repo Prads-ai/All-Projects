@@ -1,0 +1,4 @@
+###Project III – Build another Game Program
+##This Game is called Guessing Game.
+VI.	Write a program to implement the Number Guessing Game. The main method should loop as long as the player wants to play the game again.  
+VII.	Build a GUI with a Button that says: “Start Game”.  Write a method called PlayGame(), which is called when the User clicks on the “Start Game” button..  In this method write the code to play the game.  In the game the computer chooses a random number between 1 and 100, and the player tries to guess the number in as few attempts as possible. Each time the player enters a guess, the computer tells the player whether the guess is too high, too low, or right. Once the player guesses the number, that game is over.  Keep track of how many guesses it takes the player to get the number correct. All Game data should be displayed in this GUI.
