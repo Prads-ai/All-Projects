@@ -1,0 +1,5 @@
+Project IV – Build a Craps Game Program
+The Game is called Craps.
+I.	Build a GUI with a Button that says: “Start Game”.  Write a method called PlayCraps(), which is called when the User clicks on the “Start Game” button. In this method write the code to play the game.  How the game works: The user rolls 2 dice.  If the dice lands on 7 or 11. The user wins.  If the dice land on 2, 3 or 12, the user loses.  If any other number comes up, like 9, that number becomes the point.  The user will next roll as many times as necessary to either hit their point(9), they win, or they hit a 7, they lose.  If any other number comes up, like a 5, the user rolls again….until they hit their point or a 7. All Game data should be displayed in this GUI. (have fun).
+
+
