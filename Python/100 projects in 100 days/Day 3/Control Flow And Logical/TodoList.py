@@ -1,5 +1,4 @@
 # ------------------------------------------------------------------
-# Instructor: Jianmin Wang
 # Description: A simple console to-do list app that allows a user to add and delete tasks and also display a summary of the completed tasks.
 # Due: 9/16/2022
 # Author:  Pradsley D'Haiti
