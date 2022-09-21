@@ -14,7 +14,6 @@ while others_bidders == 'y'.lower():
     # Add these variable to the dictionnary
     bids[name] = bid
     others_bidders = input("Are there any other bidders : ")
-    # Add the dictionnary to the bids_log list
 
 for topbidder, value in bids.items():
     if value > max_bid:
