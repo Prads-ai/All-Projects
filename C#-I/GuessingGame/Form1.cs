@@ -16,18 +16,20 @@ namespace GuessingGame
             processGame(userGuess);
         }
         /* This method initialize the basic control needed to play the game. 
-         It also accept and convert the user input to an integer. 
+         *It also accept and convert the user input to an integer. 
          */
         public void loadGame() {
-
+        
             userGuessInput.Enabled = true;
             userGuessInput.Focus();
             string input = userGuessInput.Text;
             userGuess = Int32.Parse(input);
             startBtn.Enabled = false;
+        
         }
       // This method generate a random number between 1 to 100 and return an integer.
         public int computerGuess() { 
+        
             Random rand = new Random();
             cpuGuess = rand.Next(1, 100);
             return cpuGuess;
@@ -42,6 +44,7 @@ namespace GuessingGame
                 attempt = 0;
             }
             else {
+            
                 MessageBox.Show($"You lost the cpu guess was {cpuGuess}");
                 userGuessInput.Text = "";
                 startBtn.Text = "Guess Again";
@@ -49,17 +52,10 @@ namespace GuessingGame
                 attempt++;
                 totalAttemptLbl.Text ="Total Attempt(s) : " +  attempt.ToString();
             }
-     
         }
-        private void exitBtn_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         private void GuessingGame_Load(object sender, EventArgs e)
         {
                 startBtn.Enabled = false;
-
         }
        // This method blocks the user from pressing the guess button before entering a value.
         public void showOrHide() {
